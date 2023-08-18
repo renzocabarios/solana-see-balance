@@ -1,0 +1,31 @@
+{
+  "name": "solana-see-balance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx ts-node index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renzocabarios/solana-see-balance.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renzocabarios/solana-see-balance/issues"
+  },
+  "homepage": "https://github.com/renzocabarios/solana-see-balance#readme",
+  "dependencies": {
+    "@solana/web3.js": "^1.78.4",
+    "bs58": "^5.0.0",
+    "dotenv": "^16.3.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.1"
+  }
+}
